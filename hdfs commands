@@ -1,0 +1,29 @@
+1. List files - ls
+hdfs dfs -ls /
+
+2. Make dir
+hdfs dfs -mkdir /techcoreeasy
+
+3. create empty file
+hdfs dfs -touchz /techcoreeasy/test.txt
+
+4. cp file from local file system to hdfs
+hdfs dfs -put tech.txt /techcoreeasy/
+
+5. see contents - cat
+hdfs dfs -cat /techcoreeasy/tech.txt
+
+6. copy - cp
+hdfs dfs -cp /techcoreeasy /test_cp
+
+7. get file to local
+hdfs dfs -get /techcoreeasy/test.txt .
+
+8. Remove file
+hdfs dfs -rmr /techcoreeasy/test.txt
+
+9. stst of a file
+hdfs dfs -stat /path
+
+10. More commands and details of each command
+hdfs dfs 

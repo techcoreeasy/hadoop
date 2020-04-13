@@ -1,0 +1,15 @@
+Prerequisite :
+- git
+- docker
+
+Instructions to install git : https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-18-04-quickstart
+Instructions to install docker : https://github.com/techcoreeasy/docker_demo
+
+
+Step 1: git clone https://github.com/big-data-europe/docker-hadoop
+        cd docker-hadoop/
+Step 2: docker-compose up -d
+Step 3: docker container ls
+Step 4: docker exec -it namenode /bin/bash
+
+
